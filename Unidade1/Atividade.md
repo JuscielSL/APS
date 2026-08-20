@@ -1,4 +1,5 @@
-13/08
+20/08
 
-Metodologia, plano de ensino e bibliografia
-Apresentação da metodologia, plano de ensino e bibliografia.
+Introdução à Análise e Projeto de Sistemas de Informação
+Conceitos e elementos fundamentais da engenharia de software - definição, características e tipos de
+modelagens. Ferramentas Case de apoio ao desenho dos diagramas UML
