@@ -152,12 +152,12 @@ Os requisitos levantados servirão como base para a próxima etapa do projeto, q
 
 # 6. Integrantes do Grupo
 
-- **Nome:** ______________________________________
-- **Nome:** ______________________________________
-- **Nome:** ______________________________________
-- **Nome:** ______________________________________
-- **Nome:** ______________________________________
-
+- **Nome:** Jusciel Da Silva Lopes______________________________________
+- **Nome:** Felipe Nascimento Rocha______________________________________
+- **Nome:** David Barauna Brito______________________________________
+- **Nome:** Kevin Felipe Barreto Gloria______________________________________
+- **Nome:** Gecinaldo Junio Vieira Coelho______________________________________
+- **Nome:** André Francisco Pereia Abreu______________________________________
 ---
 
 # 7. Data
