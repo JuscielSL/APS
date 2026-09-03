@@ -13,10 +13,15 @@ Durante o desenvolvimento, são aplicadas boas práticas de desenvolvimento de s
 O projeto está sendo desenvolvido pelos seguintes integrantes:
 
 Jusciel
+
 David Brito
+
 Felipe Nascimento
+
 Gecinaldo
+
 Kevin 
+
 André
 
 
