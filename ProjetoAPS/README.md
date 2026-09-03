@@ -118,4 +118,4 @@ Para dúvidas sobre o projeto, abra uma [issue](https://github.com/JuscielSL/APS
 
 ---
 
-**Última atualização:** Agosto de 2026
+**Última atualização:** Setembro de 2026
