@@ -16,7 +16,7 @@ O projeto está sendo desenvolvido pelos seguintes integrantes:
 
 [David Brito](https://github.com/dbmarketingdigital21-lab)
 
-Felipe Nascimento
+[Felipe Nascimento](https://github.com/hdvdhxf3-beep)
 
 [Gecinaldo](https://github.com/DevJun1u)
 
