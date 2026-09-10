@@ -18,7 +18,7 @@ O projeto está sendo desenvolvido pelos seguintes integrantes:
 
 Felipe Nascimento
 
-Gecinaldo
+[Gecinaldo](https://github.com/DevJun1u)
 
 Kevin 
 
