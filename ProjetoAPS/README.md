@@ -1,4 +1,4 @@
-📚 Projeto APS — Análise e Desenvolvimento de Sistemas
+📚 Projeto APS — Sistema de Gestão de Clínica Odontológica
 
 Projeto acadêmico desenvolvido para a disciplina de Engenharia de Software do Centro Universitário UDF.
 
