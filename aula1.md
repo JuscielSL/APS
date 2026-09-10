@@ -76,7 +76,7 @@ Possíveis problemas
 💡 Lâmpada queimada
 📶 Wi-Fi sem funcionar
 🪑 Cadeira quebrada
-❄️ Ar-condicionado com defeito
+❄️ Ar-condicionado com defeito    
 💧 Bebedouro sem água
-🖥️ Computador da sala com problema
+🖥️ Computador da sala com problema;
 Dica: Cada pessoa pode escolher um problema diferente e criar sua própria versão da tela, deixando os desenhos totalmente diferentes entre si.
