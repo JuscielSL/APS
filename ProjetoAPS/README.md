@@ -12,7 +12,7 @@ Durante o desenvolvimento, são aplicadas boas práticas de desenvolvimento de s
 
 O projeto está sendo desenvolvido pelos seguintes integrantes:
 
-Jusciel
+[Jusciel](https://github.com/JuscielSL)
 
 David Brito
 
