@@ -14,7 +14,7 @@ O projeto está sendo desenvolvido pelos seguintes integrantes:
 
 [Jusciel](https://github.com/JuscielSL)
 
-David Brito
+[David Brito](https://github.com/dbmarketingdigital21-lab)
 
 Felipe Nascimento
 
