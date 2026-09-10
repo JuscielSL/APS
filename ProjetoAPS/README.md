@@ -20,7 +20,7 @@ O projeto está sendo desenvolvido pelos seguintes integrantes:
 
 [Gecinaldo](https://github.com/DevJun1u)
 
-Kevin 
+[Kevin](https://github.com/keviinfbg) 
 
 [André](https://github.com/Andrzin117)
 
