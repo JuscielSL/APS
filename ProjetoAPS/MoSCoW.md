@@ -103,7 +103,7 @@ Identifique as pessoas, grupos ou organizações que possuem interesse ou partic
 | ST02 |Dentista|Profissional de saúde |Consultar prontuários e registrar consultas, diagnósticos e tratamentos | Alta |
 | ST03 |Recepcionista|Responsável pelo atendimento e agendamento |Cadastrar pacientes e controlar a agenda de consultas | Alta |
 | ST04 |Administrador da Clínica |Gestor do sistema |Gerenciar usuários, pacientes, dentistas, consultas e relatórios | Alta  |
-| ST05 |Jusciel,David Barauna Brito, Gecinaldo Junio |Equipe de Desenvolvimento |Desenvolver, testar e documentar o Sistema de Gestão de Clínica Odontológica | Alta |
+| ST05 |Jusciel,David Barauna Brito, Gecinaldo Junio |Equipe de Desenvolvimento |Desenvolver, testar e documentar o Sistema de Gestão de Clínica Odontológica | Media |
 
 ---
 
