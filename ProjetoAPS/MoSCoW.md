@@ -27,10 +27,10 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 # 2. Identificação do Projeto
 
 **Nome do projeto: Sistema de Gestão de Clínica Odontológica**  
-> Preencher aqui.
+
 
 **Descrição resumida do projeto: O projeto de um Sistema de Gestão de Clínica Odontológica tem como contexto a necessidade de modernizar e organizar os processos administrativos e operacionais de uma clínica, centralizando informações de pacientes, profissionais, consultas, procedimentos e prontuários. Sua finalidade é facilitar o gerenciamento das atividades da clínica, reduzir erros e retrabalho, agilizar o acesso às informações e contribuir para um atendimento odontológico mais organizado e eficiente.**  
-> Apresente, em um pequeno parágrafo, o contexto do projeto e sua finalidade.
+
 
 ---
 
