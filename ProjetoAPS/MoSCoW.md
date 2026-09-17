@@ -97,9 +97,9 @@ Identifique as pessoas, grupos ou organizações que possuem interesse ou partic
 
 | ID | Stakeholder | Papel | Necessidade/Interesse | Influência |
 |---|---|---|---|---|
-| ST01 | | | | Alta / Média / Baixa |
-| ST02 | | | | Alta / Média / Baixa |
-| ST03 | | | | Alta / Média / Baixa |
+| ST01 |David Barauna Brito | | | Alta / Média / Baixa |
+| ST02 |Jusciel | | | Alta / Média / Baixa |
+| ST03 |Gecinaldo junio | | | Alta / Média / Baixa |
 | ST04 | | | | Alta / Média / Baixa |
 | ST05 | | | | Alta / Média / Baixa |
 
