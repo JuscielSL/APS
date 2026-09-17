@@ -30,8 +30,9 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 
 >Sistema de Gestão de Clínica Odontológica
 
-**Descrição resumida do projeto: O projeto de um Sistema de Gestão de Clínica Odontológica tem como contexto a necessidade de modernizar e organizar os processos administrativos e operacionais de uma clínica, centralizando informações de pacientes, profissionais, consultas, procedimentos e prontuários. Sua finalidade é facilitar o gerenciamento das atividades da clínica, reduzir erros e retrabalho, agilizar o acesso às informações e contribuir para um atendimento odontológico mais organizado e eficiente.**  
+**Descrição resumida do projeto: **  
 
+>O projeto de um Sistema de Gestão de Clínica Odontológica tem como contexto a necessidade de modernizar e organizar os processos administrativos e operacionais de uma clínica, centralizando informações de pacientes, profissionais, consultas, procedimentos e prontuários. Sua finalidade é facilitar o gerenciamento das atividades da clínica, reduzir erros e retrabalho, agilizar o acesso às informações e contribuir para um atendimento odontológico mais organizado e eficiente.
 
 ---
 
