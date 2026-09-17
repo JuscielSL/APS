@@ -146,14 +146,14 @@ Antes de escrever os requisitos, registre as necessidades identificadas durante 
 
 | ID | Stakeholder | Necessidade Identificada | Problema Relacionado |
 |---|---|---|---|
-| N01 | | | |
-| N02 | | | |
-| N03 | | | |
-| N04 | | | |
-| N05 | | | |
-| N06 | | | |
-| N07 | | | |
-| N08 | | | |
+| N01 |Paciente |Realizar e consultar agendamentos de consultas |Dificuldade para marcar e acompanhar consultas |
+| N02 |Paciente |Receber lembretes sobre consultas agendadas |Esquecimento e faltas nas consultas |
+| N03 |Recepcionista |Cadastrar e atualizar dados dos pacientes |Informações desatualizadas ou organizadas de forma inadequada |
+| N04 |Recepcionista |Controlar a agenda dos dentistas |Conflitos de horários e dificuldade no controle da agenda |
+| N05 |Dentista |Consultar o prontuário e histórico do paciente |Dificuldade para acessar informações durante o atendimento |
+| N06 |Dentista |Registrar consultas, diagnósticos e tratamentos |Falta de organização nos registros dos atendimentos |
+| N07 |Administrador |Gerenciar usuários e informações da clínica |Dificuldade no controle das informações e dos acessos |
+| N08 |Administrador |Gerar relatórios sobre consultas e atendimentos |Dificuldade para acompanhar os dados e resultados da clínica |
 
 ---
 
