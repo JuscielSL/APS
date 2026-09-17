@@ -99,9 +99,9 @@ Identifique as pessoas, grupos ou organizações que possuem interesse ou partic
 
 | ID | Stakeholder | Papel | Necessidade/Interesse | Influência |
 |---|---|---|---|---|
-| ST01 |David Barauna Brito | | | Alta / Média / Baixa |
-| ST02 |Jusciel | | | Alta / Média / Baixa |
-| ST03 |Gecinaldo junio | | | Alta / Média / Baixa |
+| ST01 | | | | Alta / Média / Baixa |
+| ST02 || | | Alta / Média / Baixa |
+| ST03 || | | Alta / Média / Baixa |
 | ST04 | | | | Alta / Média / Baixa |
 | ST05 | | | | Alta / Média / Baixa |
 
@@ -125,18 +125,18 @@ Registre as principais informações obtidas durante o levantamento.
 
 | Pergunta | Resposta |
 |---|---|
-| O que o usuário precisa fazer? | |
-| Qual problema enfrenta atualmente? | |
-| Quais informações precisa consultar? | |
-| Quais informações precisa cadastrar ou alterar? | |
-| Quais tarefas são repetitivas? | |
-| Quais tarefas consomem mais tempo? | |
-| Quais erros acontecem atualmente? | |
-| Precisa receber notificações? | |
-| Precisa gerar documentos ou relatórios? | |
-| Existem informações que precisam ser protegidas? | |
-| O sistema precisará se comunicar com outros sistemas? | |
-| Existem regras obrigatórias que precisam ser respeitadas? | |
+| O que o usuário precisa fazer? |Cadastrar pacientes, agendar consultas, consultar prontuários e gerenciar informações da clínica. |
+| Qual problema enfrenta atualmente? |Dificuldade na organização dos dados dos pacientes e no controle dos agendamentos. |
+| Quais informações precisa consultar? |Dados dos pacientes, histórico de consultas, tratamentos, horários disponíveis e informações dos dentistas. |
+| Quais informações precisa cadastrar ou alterar? |Cadastro de pacientes, dentistas, consultas, tratamentos e dados de contato. |
+| Quais tarefas são repetitivas? |Cadastrar pacientes, confirmar consultas, atualizar prontuários e organizar a agenda. |
+| Quais tarefas consomem mais tempo? |Agendamento de consultas, busca por informações dos pacientes e organização dos registros. |
+| Quais erros acontecem atualmente? |Conflitos de horários, informações desatualizadas e erros no registro de dados. |
+| Precisa receber notificações? |Sim, para lembrar os pacientes sobre consultas agendadas e possíveis alterações de horários. |
+| Precisa gerar documentos ou relatórios? |Sim, relatórios de consultas, pacientes cadastrados e atendimentos realizados. |
+| Existem informações que precisam ser protegidas? |Sim, dados pessoais dos pacientes, prontuários odontológicos e informações de contato devem ser protegidos. |
+| O sistema precisará se comunicar com outros sistemas? |Inicialmente, não. Futuramente, poderá integrar-se a sistemas de pagamento ou envio de notificações. |
+| Existem regras obrigatórias que precisam ser respeitadas? |Sim, proteger os dados dos pacientes, controlar o acesso às informações e respeitar as regras de privacidade e segurança de dados. |
 
 ---
 
