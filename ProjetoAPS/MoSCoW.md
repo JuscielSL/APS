@@ -51,9 +51,9 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 
 > Identifique os principais usuários, grupos ou organizações afetados.
 
-**Resposta: Os principais afetados pelo problema são os pacientes, que podem enfrentar dificuldades no agendamento e no acompanhamento de seus atendimentos; os dentistas, que precisam acessar e organizar informações dos pacientes e procedimentos; e os funcionários da clínica, responsáveis por agendamentos, cadastros e rotinas administrativas. A própria clínica odontológica também é afetada, pois a desorganização pode gerar retrabalho, atrasos e dificuldades na gestão das atividades.**
+**Resposta: **
 
-> Preencher aqui.
+> Os principais afetados pelo problema são os pacientes, que podem enfrentar dificuldades no agendamento e no acompanhamento de seus atendimentos; os dentistas, que precisam acessar e organizar informações dos pacientes e procedimentos; e os funcionários da clínica, responsáveis por agendamentos, cadastros e rotinas administrativas. A própria clínica odontológica também é afetada, pois a desorganização pode gerar retrabalho, atrasos e dificuldades na gestão das atividades.
 
 ---
 
@@ -63,7 +63,7 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 
 **Resposta:**
 
-> Preencher aqui.
+> Atualmente, o problema é resolvido principalmente por meio de agendas físicas, planilhas eletrônicas, anotações em papel e comunicação por telefone ou aplicativos de mensagens. Os funcionários registram os dados dos pacientes, horários e procedimentos manualmente, enquanto os dentistas consultam anotações para acompanhar o histórico dos atendimentos. Esse processo depende da organização dos responsáveis e pode dificultar o acesso rápido às informações, além de aumentar o risco de erros, perda de dados e conflitos de horários.
 
 ---
 
@@ -71,9 +71,9 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 
 Liste pelo menos três dificuldades observadas.
 
-1. 
-2. 
-3. 
+1. Dificuldade na criação e organização do cadastro de pacientes e dentistas.
+2. Dificuldade na implementação do sistema de agendamento de consultas, evitando conflitos de horários.
+3. Dificuldade na integração com o banco de dados para armazenar e consultar as informações corretamente.
 
 ---
 
@@ -87,7 +87,7 @@ Utilize como referência:
 
 **Objetivo:**
 
-> Preencher aqui.
+> Nosso projeto pretende desenvolver um Sistema de Gestão de Clínica Odontológica para facilitar o gerenciamento de pacientes, dentistas e agendamentos de consultas, contribuindo para a organização dos processos da clínica, a redução de erros e a melhoria da qualidade do atendimento aos pacientes.
 
 ---
 
