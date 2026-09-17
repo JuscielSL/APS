@@ -51,7 +51,7 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 
 > Identifique os principais usuários, grupos ou organizações afetados.
 
-**Resposta:**
+**Resposta: Os principais afetados pelo problema são os pacientes, que podem enfrentar dificuldades no agendamento e no acompanhamento de seus atendimentos; os dentistas, que precisam acessar e organizar informações dos pacientes e procedimentos; e os funcionários da clínica, responsáveis por agendamentos, cadastros e rotinas administrativas. A própria clínica odontológica também é afetada, pois a desorganização pode gerar retrabalho, atrasos e dificuldades na gestão das atividades.**
 
 > Preencher aqui.
 
