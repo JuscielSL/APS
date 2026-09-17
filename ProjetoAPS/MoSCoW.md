@@ -41,7 +41,7 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 > Descreva o problema identificado pelo grupo.  
 > Neste momento, concentre-se no problema e não na tecnologia que será utilizada.
 
-**Resposta:**
+**Resposta: é a dificuldade de organizar e controlar as informações e atividades de uma clínica odontológica. O uso de registros manuais ou informações distribuídas em diferentes locais pode causar perda de dados, erros no agendamento, conflitos de horários, dificuldade para acompanhar o histórico dos pacientes e demora na localização de informações importantes. Além disso, a falta de organização pode gerar retrabalho e prejudicar a eficiência do atendimento aos pacientes.**
 
 > Preencher aqui.
 
