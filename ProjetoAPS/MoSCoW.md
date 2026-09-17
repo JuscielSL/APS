@@ -206,11 +206,11 @@ Prefira:
 
 | ID | Característica de Qualidade | Requisito | Como será verificado? |
 |---|---|---|---|
-| RQ01 | Desempenho | | |
-| RQ02 | Segurança | | |
-| RQ03 | Usabilidade/Interação | | |
-| RQ04 | Confiabilidade | | |
-| RQ05 | Compatibilidade/Portabilidade | | |
+| RQ01 | Desempenho |O sistema deve apresentar os resultados de consultas e pesquisas em até 2 segundos em pelo menos 95% das solicitações. |Realizar testes de consulta e medir o tempo de resposta do sistema. |
+| RQ02 | Segurança |O sistema deve exigir login e senha para acesso às informações restritas e permitir acesso apenas às funcionalidades autorizadas para cada usuário. |Realizar testes de login, permissões e tentativa de acesso não autorizado. |
+| RQ03 | Usabilidade/Interação |O sistema deve permitir que um usuário realize um agendamento de consulta em no máximo 5 etapas, sem necessidade de treinamento prévio. |Realizar teste com usuários e contabilizar as etapas necessárias para concluir um agendamento. |
+| RQ04 | Confiabilidade |O sistema deve manter os dados cadastrados após o encerramento e a reabertura do sistema, sem perda das informações salvas. |Cadastrar informações, fechar e reabrir o sistema e verificar se os dados permanecem disponíveis. |
+| RQ05 | Compatibilidade/Portabilidade |O sistema deve funcionar corretamente nas versões atuais dos navegadores Google Chrome, Microsoft Edge e Mozilla Firefox. |Executar as principais funcionalidades nos três navegadores e verificar se apresentam o mesmo comportamento esperado. |
 
 ---
 
