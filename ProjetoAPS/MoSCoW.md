@@ -17,10 +17,10 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 |---|---|
 | 1 |Jusciel Da Silva Lopes |
 | 2 |David Barauna Brito |
-| 3 |Kevin felipe |
-| 4 |Felipe nascimento |
-| 5 |André|
-| 6 |Gecinaldo junio vieira coelho|
+| 3 |Kevin Felipe |
+| 4 |Felipe Nascimento |
+| 5 |André Francisco Pereira Abreu|
+| 6 |Gecinaldo Junio Vieira Coelho|
 
 ---
 
