@@ -99,11 +99,11 @@ Identifique as pessoas, grupos ou organizações que possuem interesse ou partic
 
 | ID | Stakeholder | Papel | Necessidade/Interesse | Influência |
 |---|---|---|---|---|
-| ST01 | | | | Alta / Média / Baixa |
-| ST02 || | | Alta / Média / Baixa |
-| ST03 || | | Alta / Média / Baixa |
-| ST04 | | | | Alta / Média / Baixa |
-| ST05 | | | | Alta / Média / Baixa |
+| ST01 |Paciente |Usuário do sistema |Agendar consultas, receber lembretes e consultar informações de seus atendimentos | Alta |
+| ST02 |Dentista|Profissional de saúde |Consultar prontuários e registrar consultas, diagnósticos e tratamentos | Alta |
+| ST03 |Recepcionista| | | Alta / Média / Baixa |
+| ST04 |Administrador da Clínica | | | Alta / Média / Baixa |
+| ST05 |Jusciel,David Barauna Brito, Gecinaldo Junio |Equipe de Desenvolvimento |Desenvolver, testar e documentar o Sistema de Gestão de Clínica Odontológica | Alta |
 
 ---
 
