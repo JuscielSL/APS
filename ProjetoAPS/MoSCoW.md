@@ -177,14 +177,14 @@ Utilize preferencialmente a estrutura:
 
 | ID | Requisito Funcional | Stakeholder/Fonte | Necessidade | Prioridade |
 |---|---|---|---|---|
-| RF01 | O sistema deve... | | | |
-| RF02 | O sistema deve... | | | |
-| RF03 | O sistema deve... | | | |
-| RF04 | O sistema deve... | | | |
-| RF05 | O sistema deve... | | | |
-| RF06 | O sistema deve... | | | |
-| RF07 | O sistema deve... | | | |
-| RF08 | O sistema deve... | | | |
+| RF01 | O sistema deve permitir o cadastro e a atualização dos dados dos pacientes. |Recepcionista |N03 |Alta |
+| RF02 | O sistema deve permitir o agendamento de consultas, informando paciente, dentista, data e horário. |Recepcionista |N04 |Alta |
+| RF03 | O sistema deve permitir que o paciente consulte suas consultas agendadas. |Paciente |N01 |Alta |
+| RF04 | O sistema deve permitir que o dentista consulte o prontuário e o histórico de atendimentos dos pacientes. |Dentista |N05 |Alta |
+| RF05 | O sistema deve permitir que o dentista registre consultas, diagnósticos e tratamentos realizados. |Dentista|N06 |Alta |
+| RF06 | O sistema deve permitir o envio de lembretes sobre consultas agendadas aos pacientes. |Paciente |N02 |Alta |
+| RF07 | O sistema deve permitir que o administrador gerencie os usuários e seus níveis de acesso. |Administrador |N07 |Alta|
+| RF08 | O sistema deve permitir que o administrador gere relatórios sobre consultas, pacientes e atendimentos realizados. |Administrador |N08 |Media |
 
 ---
 
