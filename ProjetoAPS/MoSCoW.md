@@ -230,9 +230,9 @@ As restrições podem estar relacionadas a:
 
 | ID | Restrição | Categoria | Justificativa/Fonte |
 |---|---|---|---|
-| RES01 | | | |
-| RES02 | | | |
-| RES03 | | | |
+| RES01 |O sistema deverá ser desenvolvido utilizando as tecnologias e ferramentas disponíveis para os alunos da faculdade. |Tecnologia |Recursos tecnológicos disponibilizados para o desenvolvimento do projeto acadêmico. |
+| RES02 |O projeto deverá ser desenvolvido dentro do prazo definido pela disciplina, podendo limitar a quantidade de funcionalidades implementadas. |Prazo |Cronograma estabelecido pela faculdade para entrega do projeto. |
+| RES03 |O sistema deverá proteger os dados pessoais e informações dos pacientes, permitindo acesso somente a usuários autorizados. |Legislação / Segurança |Necessidade de preservar a privacidade e a segurança dos dados dos pacientes, considerando a LGPD. |
 
 ---
 
