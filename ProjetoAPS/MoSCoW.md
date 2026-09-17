@@ -15,12 +15,12 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 
 | Integrante | Nome |
 |---|---|
-| 1 | |
-| 2 | |
-| 3 | |
-| 4 | |
-| 5 | |
-| 6 | |
+| 1 |Jusciel Da Silva Lopes |
+| 2 |David Barauna Brito |
+| 3 |Kevin felipe |
+| 4 |Felipe nascimento |
+| 5 |André|
+| 6 |Gecinaldo junio vieira coelho|
 
 ---
 
