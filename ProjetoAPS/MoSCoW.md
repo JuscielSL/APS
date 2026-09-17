@@ -113,7 +113,7 @@ Identifique as pessoas, grupos ou organizações que possuem interesse ou partic
 
 **Por que ele foi considerado o principal stakeholder?**
 
-> Porque ele faz tudo
+> executa a maior parte do trabalho
 
 ---
 
