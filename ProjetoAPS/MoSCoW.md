@@ -109,11 +109,11 @@ Identifique as pessoas, grupos ou organizações que possuem interesse ou partic
 
 **Stakeholder:**
 
-> Preencher aqui.
+> Jusciel
 
 **Por que ele foi considerado o principal stakeholder?**
 
-> Preencher aqui.
+> Porque ele faz tudo
 
 ---
 
