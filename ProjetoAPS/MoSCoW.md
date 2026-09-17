@@ -101,8 +101,8 @@ Identifique as pessoas, grupos ou organizações que possuem interesse ou partic
 |---|---|---|---|---|
 | ST01 |Paciente |Usuário do sistema |Agendar consultas, receber lembretes e consultar informações de seus atendimentos | Alta |
 | ST02 |Dentista|Profissional de saúde |Consultar prontuários e registrar consultas, diagnósticos e tratamentos | Alta |
-| ST03 |Recepcionista| | | Alta / Média / Baixa |
-| ST04 |Administrador da Clínica | | | Alta / Média / Baixa |
+| ST03 |Recepcionista|Responsável pelo atendimento e agendamento |Cadastrar pacientes e controlar a agenda de consultas | Alta |
+| ST04 |Administrador da Clínica |Gestor do sistema |Gerenciar usuários, pacientes, dentistas, consultas e relatórios | Alta  |
 | ST05 |Jusciel,David Barauna Brito, Gecinaldo Junio |Equipe de Desenvolvimento |Desenvolver, testar e documentar o Sistema de Gestão de Clínica Odontológica | Alta |
 
 ---
