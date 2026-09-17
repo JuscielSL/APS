@@ -6,8 +6,8 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 
 **Etapa:** Levantamento de Requisitos (Utilizar a ficha dos requisitos levantados) 
 **Técnica de Priorização:** MoSCoW  
-**Data:** ______/______/______
-**Turma:** __________________________  
+**Data:** 10______/09______/2026______
+**Turma:** D2__________________________  
 
 ---
 
