@@ -1,6 +1,6 @@
 Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 
-# 📋 Projeto de APS [Nome do projeto]
+# 📋 Projeto de APS [Sistema de Gestão de Clínica Odontológica]
 
 ## Levantamento e Priorização de Requisitos
 
