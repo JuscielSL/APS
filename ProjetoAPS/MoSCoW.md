@@ -250,9 +250,9 @@ Registre as regras do domínio que precisam ser respeitadas pelo sistema.
 
 | ID | Regra de Negócio | Fonte |
 |---|---|---|
-| RN01 | | |
-| RN02 | | |
-| RN03 | | |
+| RN01 |Somente usuários autorizados podem acessar e alterar informações dos pacientes e prontuários. |Segurança e privacidade dos dados |
+| RN02 |Uma consulta não pode ser agendada para o mesmo dentista em horários conflitantes. |Controle da agenda da clínica |
+| RN03 |O prontuário do paciente deve estar vinculado ao seu cadastro e somente poderá ser atualizado por um dentista autorizado. |Organização dos atendimentos |
 
 ---
 
@@ -262,14 +262,14 @@ Relacione as necessidades identificadas aos requisitos correspondentes.
 
 | Necessidade | Stakeholder | Requisito(s) relacionado(s) |
 |---|---|---|
-| N01 | | |
-| N02 | | |
-| N03 | | |
-| N04 | | |
-| N05 | | |
-| N06 | | |
-| N07 | | |
-| N08 | | |
+| N01 |Paciente |RF03 |
+| N02 |Paciente |RF06 |
+| N03 |Recepcionista |RF01 |
+| N04 |Recepcionista |RF02 |
+| N05 |Dentista |RF04 |
+| N06 |Dentista |RF05 |
+| N07 |Administrador |RF07 |
+| N08 |Administrador |RF08 |
 
 ---
 
@@ -290,19 +290,19 @@ Utilize as seguintes categorias:
 
 | ID | Requisito | MoSCoW | Justificativa |
 |---|---|:---:|---|
-| RF01 | | M / S / C / W | |
-| RF02 | | M / S / C / W | |
-| RF03 | | M / S / C / W | |
-| RF04 | | M / S / C / W | |
-| RF05 | | M / S / C / W | |
-| RF06 | | M / S / C / W | |
-| RF07 | | M / S / C / W | |
-| RF08 | | M / S / C / W | |
-| RQ01 | | M / S / C / W | |
-| RQ02 | | M / S / C / W | |
-| RQ03 | | M / S / C / W | |
-| RQ04 | | M / S / C / W | |
-| RQ05 | | M / S / C / W | |
+| RF01 |Cadastro e atualização dos pacientes | M |É necessário para manter os dados dos pacientes organizados. |
+| RF02 |Agendamento de consultas | M |É uma das principais funções do sistema e evita conflitos de horários. |
+| RF03 |Consulta de consultas agendadas | M |Permite que o paciente acompanhe seus próprios atendimentos. |
+| RF04 |Consulta de prontuários e histórico | M |É necessário para que o dentista tenha acesso às informações do paciente. |
+| RF05 |Registro de consultas, diagnósticos e tratamentos | M |Permite manter o histórico dos atendimentos atualizado.|
+| RF06 |Envio de lembretes | S |É importante para reduzir esquecimentos e faltas, mas o sistema pode funcionar sem essa função inicialmente. |
+| RF07 |Gerenciamento de usuários e acessos | M |É necessário para controlar quem pode acessar as informações do sistema. |
+| RF08 |Geração de relatórios | C |É útil para acompanhamento da clínica, mas pode ser implementado posteriormente. |
+| RQ01 |Desempenho| S |É importante para garantir que as consultas e pesquisas tenham resposta adequada. |
+| RQ02 |Segurança | M |É indispensável para proteger os dados pessoais e prontuários dos pacientes. |
+| RQ03 |Usabilidade/Interação | S |Facilita o uso do sistema pelos funcionários e pacientes. |
+| RQ04 |Confiabilidade | M |É necessário garantir que os dados não sejam perdidos. |
+| RQ05 |Confiabilidade | C |É desejável que o sistema funcione em diferentes navegadores, mas pode ser ampliado posteriormente. |
 
 ---
 
@@ -312,11 +312,11 @@ Após aplicar a técnica MoSCoW, selecionem os **5 requisitos considerados indis
 
 | Ordem | ID | Requisito | Por que deve estar na primeira versão? |
 |:---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
+| 1 |RF01 |Cadastro de pacientes |É necessário para registrar e manter os dados dos pacientes. |
+| 2 |RF02 |Agendamento de consultas |É essencial para organizar os horários dos dentistas e pacientes. |
+| 3 |RF04 |Consulta de prontuários |Permite ao dentista consultar o histórico do paciente durante o atendimento. |
+| 4 |RF05 |Registro de consultas e tratamentos |Mantém os atendimentos e tratamentos registrados no sistema. |
+| 5 |RF07 |Gerenciamento de usuários e acessos |Garante que as informações sejam acessadas somente por usuários autorizados. |
 
 ---
 
@@ -326,9 +326,9 @@ Selecionem pelo menos três requisitos que poderão ser adiados.
 
 | ID | Requisito | Motivo para adiar | Impacto |
 |---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
+|RF06 |Envio de lembretes |Pode exigir uma integração adicional para envio das notificações. |Os pacientes ainda poderão consultar seus agendamentos, mas não receberão lembretes automáticos. |
+|RF08 |Geração de relatórios |Não é essencial para o funcionamento básico do sistema. |A clínica poderá consultar as informações, mas terá menos recursos para análise dos dados. |
+|RQ05 |Compatibilidade com diferentes navegadores |Pode ser ampliada após a primeira versão. |Inicialmente, o sistema poderá ser validado nos navegadores definidos como prioridade. |
 
 ---
 
@@ -340,10 +340,10 @@ Registre os problemas identificados durante a revisão.
 
 | ID do Requisito | Problema Encontrado | Sugestão de Melhoria |
 |---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
+|RF02 |O requisito não especificava claramente como evitar conflitos de horários. |Informar que o sistema deve impedir o agendamento de horários conflitantes. |
+|RF06 |O requisito não definia quando os lembretes seriam enviados. |Definir posteriormente o prazo e o meio utilizado para o envio dos lembretes. |
+|RQ01 |O requisito utilizava o termo “obrigações”. |Alterar para “requisições” para deixar o requisito mais claro. |
+|RQ03 |O termo “etapas fáceis” estava pouco claro. |Alterar para “etapas necessárias para concluir um agendamento”. |
 
 ---
 
@@ -351,18 +351,18 @@ Registre os problemas identificados durante a revisão.
 
 Antes da entrega, verifique:
 
-- [ ] Os requisitos estão completos?
-- [ ] Os requisitos estão corretos em relação às necessidades?
-- [ ] Cada requisito representa uma única capacidade ou característica?
-- [ ] Os requisitos são necessários?
-- [ ] Os requisitos são viáveis?
-- [ ] Todos possuem prioridade?
-- [ ] Termos ambíguos foram eliminados?
-- [ ] Os requisitos podem ser verificados ou testados?
-- [ ] A fonte ou stakeholder está identificado?
-- [ ] As necessidades estão relacionadas aos requisitos?
-- [ ] Os requisitos de qualidade são mensuráveis sempre que possível?
-- [ ] As prioridades MoSCoW possuem justificativa?
+- [✅] Os requisitos estão completos?
+- [✅] Os requisitos estão corretos em relação às necessidades?
+- [✅] Cada requisito representa uma única capacidade ou característica?
+- [✅] Os requisitos são necessários?
+- [✅] Os requisitos são viáveis?
+- [✅] Todos possuem prioridade?
+- [✅] Termos ambíguos foram eliminados?
+- [✅] Os requisitos podem ser verificados ou testados?
+- [✅] A fonte ou stakeholder está identificado?
+- [✅] As necessidades estão relacionadas aos requisitos?
+- [✅] Os requisitos de qualidade são mensuráveis sempre que possível?
+- [✅] As prioridades MoSCoW possuem justificativa?
 
 ---
 
@@ -372,31 +372,31 @@ Antes da entrega, verifique:
 
 > Resposta do grupo.
 
----
+O requisito de agendamento de consultas gerou mais discussão porque foi necessário considerar a disponibilidade dos dentistas, os horários dos pacientes e a possibilidade de conflitos de agenda. O grupo precisou definir como o sistema deveria organizar essas informações.
 
 ## 18.2 Qual necessidade inicialmente parecia simples, mas gerou vários requisitos?
 
 > Resposta do grupo.
 
----
+A necessidade de organizar os atendimentos dos pacientes inicialmente parecia simples, mas gerou vários requisitos relacionados ao cadastro de pacientes, agendamento de consultas, consulta de prontuários, registro de tratamentos e geração de relatórios.
 
 ## 18.3 O grupo identificou algum requisito implícito durante a discussão?
 
 > Resposta do grupo.
 
----
+Sim. Durante a discussão, o grupo identificou a necessidade de controlar o acesso às informações dos pacientes. Esse requisito estava relacionado à segurança dos dados e à definição de diferentes níveis de acesso para os usuários do sistema.
 
 ## 18.4 Qual requisito foi mais difícil de priorizar utilizando MoSCoW? Por quê?
 
 > Resposta do grupo.
 
----
+O envio de lembretes sobre consultas foi um dos requisitos mais difíceis de priorizar, pois é uma funcionalidade importante para reduzir faltas, mas não impede o funcionamento básico do sistema. Por isso, foi considerado como “Should Have”.****
 
 ## 18.5 Houve algum requisito inicialmente considerado Must que mudou de prioridade?
 
 > Resposta do grupo.
 
----
+Sim. A geração de relatórios foi inicialmente considerada importante para o sistema, mas após a análise das funcionalidades essenciais, o grupo decidiu classificá-la como “Could Have”, pois a primeira versão pode funcionar sem essa funcionalidade.
 
 # 📝 19. Conclusão
 
@@ -412,7 +412,8 @@ Elabore uma breve conclusão apresentando:
 
 > Escreva aqui a conclusão do grupo.
 
----
+O projeto investigou o problema da dificuldade de organizar e controlar as informações e atividades de uma clínica odontológica. Os principais stakeholders identificados foram pacientes, dentistas, recepcionistas, administrador da clínica e equipe de desenvolvimento. Entre as necessidades mais relevantes estão o cadastro de pacientes, o agendamento de consultas, o acesso aos prontuários e o registro dos atendimentos. Os requisitos essenciais foram priorizados considerando as funcionalidades necessárias para o funcionamento inicial do sistema. A técnica MoSCoW auxiliou o grupo a organizar os requisitos de acordo com sua importância, permitindo definir quais funcionalidades deveriam estar presentes na primeira versão e quais poderiam ser desenvolvidas futuramente.
+
 
 # 📦 Entregável
 
