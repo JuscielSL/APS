@@ -15,12 +15,12 @@ Modelo do template: https://miro.com/pt/modelos/moscow-matrix-basic/
 
 | Integrante | Nome |
 |---|---|
-| 1 |Jusciel Da Silva Lopes |
-| 2 |David Barauna Brito |
-| 3 |Kevin Felipe |
-| 4 |Felipe Nascimento |
-| 5 |André Francisco Pereira Abreu|
-| 6 |Gecinaldo Junio Vieira Coelho|
+| 1 |[Jusciel Da Silva Lopes](https://github.com/JuscielSL) |
+| 2 |[David Barauna Brito](https://github.com/dbmarketingdigital21-lab) |
+| 3 |[Kevin Felipe](https://github.com/keviinfbg) |
+| 4 |[Felipe Nascimento](https://github.com/hdvdhxf3-beep) |
+| 5 |[André Francisco Pereira Abreu](https://github.com/Andrzin117)|
+| 6 |[Gecinaldo Junio Vieira Coelho](https://github.com/DevJun1u)|
 
 ---
 
