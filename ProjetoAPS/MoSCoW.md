@@ -293,19 +293,20 @@ Utilize as seguintes categorias:
 
 | ID | Requisito | MoSCoW | Justificativa |
 |---|---|:---:|---|
-| RF01 |Cadastro e atualização dos pacientes | M |É necessário para manter os dados dos pacientes organizados. |
-| RF02 |Agendamento de consultas | M |É uma das principais funções do sistema e evita conflitos de horários. |
-| RF03 |Consulta de consultas agendadas | M |Permite que o paciente acompanhe seus próprios atendimentos. |
-| RF04 |Consulta de prontuários e histórico | M |É necessário para que o dentista tenha acesso às informações do paciente. |
-| RF05 |Registro de consultas, diagnósticos e tratamentos | M |Permite manter o histórico dos atendimentos atualizado.|
-| RF06 |Envio de lembretes | S |É importante para reduzir esquecimentos e faltas, mas o sistema pode funcionar sem essa função inicialmente. |
-| RF07 |Gerenciamento de usuários e acessos | M |É necessário para controlar quem pode acessar as informações do sistema. |
-| RF08 |Geração de relatórios | C |É útil para acompanhamento da clínica, mas pode ser implementado posteriormente. |
-| RQ01 |Desempenho| S |É importante para garantir que as consultas e pesquisas tenham resposta adequada. |
-| RQ02 |Segurança | M |É indispensável para proteger os dados pessoais e prontuários dos pacientes. |
-| RQ03 |Usabilidade/Interação | S |Facilita o uso do sistema pelos funcionários e pacientes. |
-| RQ04 |Confiabilidade | M |É necessário garantir que os dados não sejam perdidos. |
-| RQ05 |Confiabilidade | C |É desejável que o sistema funcione em diferentes navegadores, mas pode ser ampliado posteriormente. |
+| RF01 |Cadastro de pacientes e Lista de Espera | M |É o ponto de partida essencial para organizar a entrada de pacientes. |
+| RF02 |Cadastro da disponibilidade da clínica (Professor) | M |Essencial para que os alunos saibam quando há vagas para agendar. |
+| RF03 |Agendamento e remarcação de consultas (Aluno) | M |Função principal do sistema para eliminar a desorganização de horários. |
+| RF04 |Listagem diária de pacientes para a Receção| S |Importante para a rotina diária da receção, mas o sistema funciona inicialmente através da consulta geral da agenda. |
+| RF05 |Prontuário Eletrónico (Consulta e Registo) | M |Indispensável para acabar com a perda e extravio de documentos físicos.|
+| RF06 |Registo de evolução e encaminhamento interno | M |Necessário para manter o histórico e transferir o paciente entre especialidades. |
+| RF07 |Controlo de Faltas e Exclusão Automática | M |Regra de negócio obrigatória: excluir pacientes com 2 faltas não justificadas. |
+| RF08 |Envio de lembretes (WhatsApp/SMS) | C |Útil para reduzir faltas, mas exige integração externa, podendo ficar para depois. |
+| RF09 |Gestão de utilizadores e níveis de acesso | M |Necessário para garantir que apenas os alunos responsáveis acedem aos dados. |
+| RQ01 |Desempenho| S |Importante para garantir uma navegação fluida durante os atendimentos clínicos. |
+| RQ02 |Segurança e Privacidade | M |Indispensável para proteger dados sigilosos, conforme exigido pela clínica. |
+| RQ03 |Usabilidade/Interação | S |Facilita a adesão de alunos e professores sem necessidade de formação complexa. |
+| RQ04 |Confiabilidade e Integridade | M |Essencial para garantir que as informações clínicas guardadas não se perdem. |
+| RQ05 |Compatibilidade/Portabilidade | C |O sistema pode funcionar inicialmente apenas num navegador principal (ex: Chrome), sendo otimizado para outros mais tarde. |
 
 ---
 
