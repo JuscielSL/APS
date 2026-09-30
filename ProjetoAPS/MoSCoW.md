@@ -315,11 +315,11 @@ Após aplicar a técnica MoSCoW, selecionem os **5 requisitos considerados indis
 
 | Ordem | ID | Requisito | Por que deve estar na primeira versão? |
 |:---:|---|---|---|
-| 1 |RF01 |Cadastro de pacientes |É necessário para registrar e manter os dados dos pacientes. |
-| 2 |RF02 |Agendamento de consultas |É essencial para organizar os horários dos dentistas e pacientes. |
-| 3 |RF04 |Consulta de prontuários |Permite ao dentista consultar o histórico do paciente durante o atendimento. |
-| 4 |RF05 |Registro de consultas e tratamentos |Mantém os atendimentos e tratamentos registrados no sistema. |
-| 5 |RF07 |Gerenciamento de usuários e acessos |Garante que as informações sejam acessadas somente por usuários autorizados. |
+| 1 |RF01 |Cadastro de pacientes e Lista de Espera|É o ponto de partida obrigatório para a triagem da clínica. |
+| 2 |RF03 |Agendamento de consultas pelos alunos |Resolve a desorganização de horários e elimina a dependência manual. |
+| 3 |RF05 |Prontuário Eletrônico (Consulta e Registro) |Substitui o papel e resolve o problema crítico de extravio de documentos. |
+| 4 |RF07 |Controle de Faltas e Cancelamento |Essencial para aplicar a regra de exclusão após 2 faltas e liberar vagas. |
+| 5 |RF09 |Gerenciamento de usuários e acessos |Garante o sigilo exigido, limitando o acesso ao prontuário apenas aos responsáveis. |
 
 ---
 
