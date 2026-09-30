@@ -52,7 +52,7 @@ Desenvolver habilidades de análise e levantamento de requisitos;
 Praticar modelagem e documentação de sistemas;
 Aplicar metodologias de desenvolvimento de software;
 Desenvolver e testar uma solução computacional;
-Trabalhar de forma colaborativa utilizando controle de versão;
+Trabalhar de forma colaborativa usando controle de versão;
 Consolidar os conhecimentos adquiridos durante a disciplina.
 🏗️ Estrutura do Projeto
 
@@ -214,4 +214,4 @@ Equipe	Jusciel, David Brito, Felipe Nascimento, Gecinaldo, Kevin e André
 
 Este projeto foi desenvolvido exclusivamente para fins acadêmicos, com o objetivo de colocar em prática os conhecimentos adquiridos na disciplina de Engenharia de Software.
 
-Última atualização: Setembro de 2026
+Última atualização:  Setembro de 2026
