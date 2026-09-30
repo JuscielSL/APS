@@ -99,11 +99,13 @@ Identifique as pessoas, grupos ou organizações que possuem interesse ou partic
 
 | ID | Stakeholder | Papel | Necessidade/Interesse | Influência |
 |---|---|---|---|---|
-| ST01 |Paciente |Usuário do sistema |Agendar consultas, receber lembretes e consultar informações de seus atendimentos | Alta |
-| ST02 |Dentista|Profissional de saúde |Consultar prontuários e registrar consultas, diagnósticos e tratamentos | Alta |
-| ST03 |Recepcionista da Clinica |Responsável pelo atendimento e agendamento |Cadastrar pacientes e controlar a agenda de consultas | Alta |
-| ST04 |Administrador da Clínica |Gestor do sistema |Gerenciar usuários, pacientes, dentistas, consultas e relatórios | Alta  |
-| ST05 |Jusciel, David Barauna Brito, Gecinaldo Junio, Adré Franscisco, Kevin Felipe, Felipe Nascimento |Equipe de Desenvolvimento |Desenvolver, testar e documentar o Sistema de Gestão de Clínica Odontológica | Media |
+| ST01 |Paciente |Usuário do sistema |Ingressar na lista de espera, agendar consultas e receber lembretes do seu tratamento. | Alta |
+| ST02 |Dentista da Triagem|Profissional de avaliação |Realizar a primeira anamnese e encaminhar o paciente para a lista/clínica correta. | Alta |
+| ST03 |Recepcionista da Clinica |Triagem administrativa |Separar prontuários físicos baseados na agenda diária gerada pelos alunos/professores. | Alta |
+| ST04 |Administrador da Clínica |Gestor do sistema |Gerenciar usuários, alunos, professores e extrair relatórios de fluxo e evasão. | Alta  |
+| ST05 |Equipe de Desenvolvimento |Desenvolvedores | Desenvolver, testar e documentar o Sistema de Gestão. | Media |
+| ST06 |Aluno de Odontologia |Prestador de Cuidados | Entrar em contato com o paciente, agendar/remarcar retornos e registrar a evolução clínica. | Alta |
+| ST06 |Professor Responsável |Supervisor Clínico | Disponibilizar a sua agenda de clínica para os alunos e validar os tratamentos realizados. | Alta |
 
 ---
 
