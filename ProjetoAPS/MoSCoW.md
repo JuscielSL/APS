@@ -148,14 +148,14 @@ Antes de escrever os requisitos, registre as necessidades identificadas durante 
 
 | ID | Stakeholder | Necessidade Identificada | Problema Relacionado |
 |---|---|---|---|
-| N01 |Paciente |Realizar e consultar agendamentos de consultas |Dificuldade para marcar e acompanhar consultas |
-| N02 |Paciente |Receber lembretes sobre consultas agendadas |Esquecimento e faltas nas consultas |
-| N03 |Recepcionista |Cadastrar e atualizar dados dos pacientes |Informações desatualizadas ou organizadas de forma inadequada |
-| N04 |Recepcionista |Controlar a agenda dos dentistas |Conflitos de horários e dificuldade no controle da agenda |
-| N05 |Dentista |Consultar o prontuário e histórico do paciente |Dificuldade para acessar informações durante o atendimento |
-| N06 |Dentista |Registrar consultas, diagnósticos e tratamentos |Falta de organização nos registros dos atendimentos |
-| N07 |Administrador |Gerenciar usuários e informações da clínica |Dificuldade no controle das informações e dos acessos |
-| N08 |Administrador |Gerar relatórios sobre consultas e atendimentos |Dificuldade para acompanhar os dados e resultados da clínica |
+| N01 |Paciente |Receber confirmações e lembretes (ex: via WhatsApp). | Pacientes comparecem sem haver clínica/vaga disponível por falha de comunicação. |
+| N02 |Recepcionista |Acessar a listagem diária de pacientes esperados. |Dificuldade em saber quais prontuários físicos separar no início do dia. |
+| N03 |Dentista da Triagem |Inserir pacientes em uma Lista de Espera centralizada. |Desorganização no primeiro contato e encaminhamento do paciente. |
+| N04 |Aluno |Gerenciar a sua própria agenda de retornos com o paciente. |Conflitos de horários, pois atualmente o agendamento depende do aluno e do professor. |
+| N05 |Professor / Aluno |Digitalizar o prontuário e o histórico clínico. |Extravio e perda frequente de documentos físicos (prontuários de papel). |
+| N06 |Aluno / Admin |Aplicar regra de cancelamento automático. |Pacientes que faltam e ocupam vagas indevidamente (limite de 2 faltas). |
+| N07 |Aluno / Dentista |Transferir pacientes entre clínicas (Endo, Cirurgia, etc.). |O mesmo paciente passa por 3 ou 4 clínicas sem um fluxo claro de transferência. |
+| N08 |Administrador |Gerar relatórios de atendimentos e gerenciar acessos. |Dificuldade para acompanhar dados e manter o sigilo apenas para quem atende o paciente. |
 
 ---
 
