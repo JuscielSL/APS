@@ -329,9 +329,9 @@ Selecionem pelo menos três requisitos que poderão ser adiados.
 
 | ID | Requisito | Motivo para adiar | Impacto |
 |---|---|---|---|
-|RF06 |Envio de lembretes |Pode exigir uma integração adicional para envio das notificações. |Os pacientes ainda poderão consultar seus agendamentos, mas não receberão lembretes automáticos. |
-|RF08 |Geração de relatórios |Não é essencial para o funcionamento básico do sistema. |A clínica poderá consultar as informações, mas terá menos recursos para análise dos dados. |
-|RQ05 |Compatibilidade com diferentes navegadores |Pode ser ampliada após a primeira versão. |Inicialmente, o sistema poderá ser validado nos navegadores definidos como prioridade. |
+|RF08 |Envio automático de lembretes (WhatsApp/SMS) |Exige integração com APIs externas (ex: Twilio ou Meta), o que consome mais tempo de desenvolvimento. |A clínica continuará a depender do contacto manual dos alunos com os pacientes para lembrar das consultas. |
+|RF04 |A clínica continuará a depender do contacto manual dos alunos com os pacientes para lembrar das consultas. |O foco inicial é fazer os alunos e professores usarem o sistema de agendamento e prontuário. |A receção terá de verificar a agenda geral do sistema em vez de ter um painel exclusivo já filtrado. |
+|RQ05 |Compatibilidade total com múltiplos navegadores |Compatibilidade total com múltiplos navegadores. |Utilizadores que tentarem aceder via Safari ou Firefox poderão encontrar pequenas falhas de layout. |
 
 ---
 
