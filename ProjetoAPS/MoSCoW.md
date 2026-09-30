@@ -179,14 +179,15 @@ Utilize preferencialmente a estrutura:
 
 | ID | Requisito Funcional | Stakeholder/Fonte | Necessidade | Prioridade |
 |---|---|---|---|---|
-| RF01 | O sistema deve permitir o cadastro e a atualização dos dados dos pacientes. |Recepcionista |N03 |Alta |
-| RF02 | O sistema deve permitir o agendamento de consultas, informando paciente, dentista, data e horário. |Recepcionista |N04 |Alta |
-| RF03 | O sistema deve permitir que o paciente consulte suas consultas agendadas. |Paciente |N01 |Alta |
-| RF04 | O sistema deve permitir que o dentista consulte o prontuário e o histórico de atendimentos dos pacientes. |Dentista |N05 |Alta |
-| RF05 | O sistema deve permitir que o dentista registre consultas, diagnósticos e tratamentos realizados. |Dentista|N06 |Alta |
-| RF06 | O sistema deve permitir o envio de lembretes sobre consultas agendadas aos pacientes. |Paciente |N02 |Alta |
-| RF07 | O sistema deve permitir que o administrador gerencie os usuários e seus níveis de acesso. |Administrador |N07 |Alta|
-| RF08 | O sistema deve permitir que o administrador gere relatórios sobre consultas, pacientes e atendimentos realizados. |Administrador |N08 |Media |
+| RF01 | O sistema deve permitir o cadastro de pacientes e a gestão de uma Lista de Espera por especialidade. |Dentista da Triagem |N03 |Alta |
+| RF02 | O sistema deve permitir que o Professor cadastre a disponibilidade da sua clínica (dias e vagas). |Professor |N04 |Alta |
+| RF03 | O sistema deve permitir que o Aluno agende e remarque consultas diretamente com os pacientes da sua lista. |Aluno |N04 |Alta |
+| RF04 | O sistema deve gerar uma listagem diária de consultas confirmadas para auxiliar a separação de documentos. |Recepcionista |N02 |Alta |
+| RF05 | O sistema deve manter um Prontuário Eletrônico centralizado e seguro, visível apenas para o aluno/professor responsável. |Aluno / Professor |N05, N08 |Alta |
+| RF06 | O sistema deve permitir o registro de evolução clínica e encaminhamento interno para outras especialidades (ex: da Cirurgia para a Prótese). |Aluno / Dentista |N07 |Alta |
+| RF07 | O sistema deve registrar as presenças e excluir automaticamente do programa os pacientes que atingirem 2 faltas não justificadas. |Aluno / Admin |N06 |Alta|
+| RF08 | O sistema deve enviar lembretes automáticos de consulta para o paciente assim que o aluno realizar o agendamento. |Paciente |N01 |Media |
+| RF09 | O sistema deve permitir que o administrador gerencie os níveis de acesso (Admin, Receção, Triagem, Professor, Aluno). |Administrador |N08 |Alta |
 
 ---
 
