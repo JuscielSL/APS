@@ -127,18 +127,18 @@ Registre as principais informações obtidas durante o levantamento.
 
 | Pergunta | Resposta |
 |---|---|
-| O que o usuário precisa fazer? |Cadastrar pacientes, agendar consultas, consultar prontuários e gerenciar informações da clínica. |
-| Qual problema enfrenta atualmente? |Dificuldade na organização dos dados dos pacientes e no controle dos agendamentos. |
-| Quais informações precisa consultar? |Dados dos pacientes, histórico de consultas, tratamentos, horários disponíveis e informações dos dentistas. |
-| Quais informações precisa cadastrar ou alterar? |Cadastro de pacientes, dentistas, consultas, tratamentos e dados de contato. |
-| Quais tarefas são repetitivas? |Cadastrar pacientes, confirmar consultas, atualizar prontuários e organizar a agenda. |
-| Quais tarefas consomem mais tempo? |Agendamento de consultas, busca por informações dos pacientes e organização dos registros. |
-| Quais erros acontecem atualmente? |Conflitos de horários, informações desatualizadas e erros no registro de dados. |
-| Precisa receber notificações? |Sim, para lembrar os pacientes sobre consultas agendadas e possíveis alterações de horários. |
-| Precisa gerar documentos ou relatórios? |Sim, relatórios de consultas, pacientes cadastrados e atendimentos realizados. |
-| Existem informações que precisam ser protegidas? |Sim, dados pessoais dos pacientes, prontuários odontológicos e informações de contato devem ser protegidos. |
-| O sistema precisará se comunicar com outros sistemas? |Inicialmente, não. Futuramente, poderá integrar-se a sistemas de pagamento ou envio de notificações. |
-| Existem regras obrigatórias que precisam ser respeitadas? |Sim, proteger os dados dos pacientes, controlar o acesso às informações e respeitar as regras de privacidade e segurança de dados. |
+| O que o utilizador precisa fazer?  | Registar pacientes na lista de espera, realizar a triagem, permitir que os alunos agendem e remarquem as suas próprias consultas e gerir o fluxo do paciente entre diferentes especialidades. |
+| Qual problema está a ser enfrentado atualmente? | Extravio e perda de prontuários físicos, ausência de um fluxo claro para pacientes que transitam por várias clínicas (endodontia, cirurgia, prótese) e pacientes que comparecem sem vaga garantida. |
+| Quais informações preciso consultar?  | A lista de espera inicial, as vagas disponibilizadas pelos professores, a listagem diária de consultas e o histórico completo do prontuário, desde a triagem até ao fim do tratamento. |
+| Quais informações precisam cadastrar ou alterar? | Cadastro na lista de espera, triagem do dentista, gestão de agendas (pelos alunos e professores) e o registo de presenças ou faltas no prontuário. |
+| Quais tarefas são repetitivas? | O contacto manual via WhatsApp para realizar anamnese inicial com a lista de espera e a separação diária de prontuários físicos em papel pela receção. |
+| Quais tarefas consomem mais tempo? | A gestão e controlo das listas de espera, o agendamento manual que depende da comunicação entre o aluno e o paciente, e a organização do fluxo interno entre as várias clínicas.    |
+| Quais erros ocorrem atualmente? | A perda de documentos do prontuário físico e a notificação de pacientes para comparecerem num dia em que a clínica está com jornada reduzida ou sem atendimento disponível. |
+| Precisa receber notificações? | Sim, o sistema deve facilitar o aviso aos pacientes sobre a triagem, marcação inicial e lembretes para evitar faltas. |
+| Precisa gerar documentos ou relatórios? | Sim, o sistema necessita de gerar o acesso digital ao prontuário do paciente e as listagens de agendamentos diários para a receção. |
+| Existem informações que precisam ser protegidas? | Sim, o acesso aos prontuários deve ser estritamente garantido apenas ao aluno que está a realizar o tratamento e a quem manuseia os documentos administrativos. |
+| O sistema precisará comunicar com outros sistemas? | Inicialmente não. A única integração externa mencionada como prática atual é o uso do WhatsApp para contactar a lista de espera. |
+| Existem regras obrigatórias que precisam ser respeitadas? | Sim, a exclusão automática de pacientes: qualquer paciente com duas faltas não justificadas sai imediatamente do programa de atendimento. Além disso, a privacidade dos dados deve ser mantida. |
 
 ---
 
