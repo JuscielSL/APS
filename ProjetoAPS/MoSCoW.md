@@ -344,8 +344,8 @@ Registre os problemas identificados durante a revisão.
 
 | ID do Requisito | Problema Encontrado | Sugestão de Melhoria |
 |---|---|---|
-|RF03 |O requisito não especificava claramente como evitar conflitos de horários. |Informar que o sistema deve impedir o agendamento de horários conflitantes. |
-|RF08 |O requisito não definia quando os lembretes seriam enviados. |Definir posteriormente o prazo e o meio utilizado para o envio dos lembretes. |
+|RF03 |O requisito não especificava claramente como evitar conflitos de horários. |Informar que o sistema deve cruzar o agendamento do aluno com as vagas e a agenda disponibilizada pelo professor responsável. |
+|RF08 |O requisito não definia quando os lembretes seriam enviados. |Especificar o uso do WhatsApp (canal preferencial já utilizado na clínica) e definir o envio para 24 horas antes da consulta. |
 |RQ01 |O requisito utilizava o termo “obrigações”. |Alterar para “requisições” para deixar o requisito mais claro. |
 |RQ03 |O termo “etapas fáceis” estava pouco claro. |Alterar para “etapas necessárias para concluir um agendamento”. |
 
