@@ -113,11 +113,11 @@ Identifique as pessoas, grupos ou organizações que possuem interesse ou partic
 
 **Stakeholder:**
 
-> Jusciel
+> Administrador da Clínica (ou Dentista Coordenador / Responsável pela Triagem).
 
 **Por que ele foi considerado o principal stakeholder?**
 
-> executa a maior parte do trabalho
+> Porque é a pessoa responsável por garantir o funcionamento da clínica, gerenciar o fluxo de pacientes desde a lista de espera até a alta, e é quem necessita de uma solução urgente para problemas críticos atuais, como o extravio de prontuários em papel e a dificuldade de organizar as agendas de alunos e professores.
 
 ---
 
