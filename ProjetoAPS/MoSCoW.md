@@ -344,8 +344,8 @@ Registre os problemas identificados durante a revisão.
 
 | ID do Requisito | Problema Encontrado | Sugestão de Melhoria |
 |---|---|---|
-|RF02 |O requisito não especificava claramente como evitar conflitos de horários. |Informar que o sistema deve impedir o agendamento de horários conflitantes. |
-|RF06 |O requisito não definia quando os lembretes seriam enviados. |Definir posteriormente o prazo e o meio utilizado para o envio dos lembretes. |
+|RF03 |O requisito não especificava claramente como evitar conflitos de horários. |Informar que o sistema deve impedir o agendamento de horários conflitantes. |
+|RF08 |O requisito não definia quando os lembretes seriam enviados. |Definir posteriormente o prazo e o meio utilizado para o envio dos lembretes. |
 |RQ01 |O requisito utilizava o termo “obrigações”. |Alterar para “requisições” para deixar o requisito mais claro. |
 |RQ03 |O termo “etapas fáceis” estava pouco claro. |Alterar para “etapas necessárias para concluir um agendamento”. |
 
