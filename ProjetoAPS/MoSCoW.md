@@ -253,9 +253,9 @@ Registre as regras do domínio que precisam ser respeitadas pelo sistema.
 
 | ID | Regra de Negócio | Fonte |
 |---|---|---|
-| RN01 |Somente usuários autorizados podem acessar e alterar informações dos pacientes e prontuários. |Segurança e privacidade dos dados |
-| RN02 |Uma consulta não pode ser agendada para o mesmo dentista em horários conflitantes. |Controle da agenda da clínica |
-| RN03 |O prontuário do paciente deve estar vinculado ao seu cadastro e somente poderá ser atualizado por um dentista autorizado. |Organização dos atendimentos |
+| RN01 |Cancelamento Automático: Se o paciente acumular duas faltas não justificadas, deve ser automaticamente excluído do programa de tratamento. |Controle de agenda e lista de espera (Áudio). |
+| RN02 |Fluxo de Triagem: Um paciente só pode ser agendado para tratamento clínico com um aluno após ter passado obrigatoriamente pela triagem inicial com o dentista. |Processo de ingresso do paciente. |
+| RN03 |Sigilo do Prontuário: O acesso ao prontuário eletrónico é estritamente limitado ao aluno responsável pelo tratamento e ao seu professor supervisor. |Segurança e privacidade dos dados. |
 
 ---
 
@@ -265,14 +265,14 @@ Relacione as necessidades identificadas aos requisitos correspondentes.
 
 | Necessidade | Stakeholder | Requisito(s) relacionado(s) |
 |---|---|---|
-| N01 |Paciente |RF03 |
-| N02 |Paciente |RF06 |
-| N03 |Recepcionista |RF01 |
-| N04 |Recepcionista |RF02 |
-| N05 |Dentista |RF04 |
-| N06 |Dentista |RF05 |
-| N07 |Administrador |RF07 |
-| N08 |Administrador |RF08 |
+| N01 (Lembretes) |Paciente |RF08 |
+| N02 (Lista Diária) |Rececionista |RF04 |
+| N03 (Lista de Espera) |Dentista da Triagem |RF01 |
+| N04 (Agenda Aluno/Prof) |Aluno / Professor |RF02, RF03 |
+| N05 (Prontuário Digital) |Aluno / Professor |Aluno / Professor |
+| N06 (Regra de Cancelamento) |Aluno / Admin |RF07 |
+| N07 (Transferência Interna) |Aluno / Dentista |RF06 |
+| N08 (Relatórios) |Administrador |RF09 |
 
 ---
 
