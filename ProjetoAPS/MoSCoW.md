@@ -376,7 +376,7 @@ Antes da entrega, verifique:
 
 > Resposta do grupo.
 
-O requisito de agendamento de consultas gerou mais discussão porque foi necessário considerar a disponibilidade dos dentistas, os horários dos pacientes e a possibilidade de conflitos de agenda. O grupo precisou definir como o sistema deveria organizar essas informações.
+O requisito de agendamento gerou mais discussão porque exige conciliar as vagas disponibilizadas pelos professores com os horários dos pacientes e a agenda dos alunos, evitando conflitos na clínica universitária.
 
 ## 18.2 Qual necessidade inicialmente parecia simples, mas gerou vários requisitos?
 
@@ -394,13 +394,13 @@ Sim. Durante a discussão, o grupo identificou a necessidade de controlar o aces
 
 > Resposta do grupo.
 
-O envio de lembretes sobre consultas foi um dos requisitos mais difíceis de priorizar, pois é uma funcionalidade importante para reduzir faltas, mas não impede o funcionamento básico do sistema. Por isso, foi considerado como “Should Have”.****
+O envio de lembretes foi considerado 'Could Have' (C), pois é útil para reduzir faltas, mas exige integrações complexas e não impede o funcionamento básico do sistema.
 
 ## 18.5 Houve algum requisito inicialmente considerado Must que mudou de prioridade?
 
 > Resposta do grupo.
 
-Sim. A geração de relatórios foi inicialmente considerada importante para o sistema, mas após a análise das funcionalidades essenciais, o grupo decidiu classificá-la como “Could Have”, pois a primeira versão pode funcionar sem essa funcionalidade.
+Sim. A listagem diária automatizada para a receção (RF04) foi inicialmente considerada 'Must', mas após análise, o grupo decidiu classificá-la como 'Should Have', pois a primeira versão pode funcionar com a receção a consultar a agenda geral.
 
 # 📝 19. Conclusão
 
@@ -416,7 +416,7 @@ Elabore uma breve conclusão apresentando:
 
 > Escreva aqui a conclusão do grupo.
 
-O projeto investigou o problema da dificuldade de organizar e controlar as informações e atividades de uma clínica odontológica. Os principais stakeholders identificados foram pacientes, dentistas, recepcionistas, administrador da clínica e equipe de desenvolvimento. Entre as necessidades mais relevantes estão o cadastro de pacientes, o agendamento de consultas, o acesso aos prontuários e o registro dos atendimentos. Os requisitos essenciais foram priorizados considerando as funcionalidades necessárias para o funcionamento inicial do sistema. A técnica MoSCoW auxiliou o grupo a organizar os requisitos de acordo com sua importância, permitindo definir quais funcionalidades deveriam estar presentes na primeira versão e quais poderiam ser desenvolvidas futuramente.
+O projeto investigou a dificuldade de organizar informações num ambiente de clínica odontológica universitária. Os principais stakeholders identificados foram os pacientes, alunos de odontologia, professores responsáveis, recepcionistas e a administração. Entre as necessidades mais relevantes estão o cadastro de pacientes, o agendamento de consultas, o acesso aos prontuários e o registro dos atendimentos. Os requisitos essenciais foram priorizados considerando as funcionalidades necessárias para o funcionamento inicial do sistema. A técnica MoSCoW auxiliou o grupo a organizar os requisitos de acordo com sua importância, permitindo definir quais funcionalidades deveriam estar presentes na primeira versão e quais poderiam ser desenvolvidas futuramente.
 
 
 # 📦 Entregável
