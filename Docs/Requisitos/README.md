@@ -2,9 +2,6 @@
 
 > **Ficha de Elicitação de Requisitos — REQ-001**
 
-![UDF](https://img.shields.io/badge/UDF-Engenharia%20de%20Software-blue)
-![Requisito](https://img.shields.io/badge/Requisito-REQ--001-green)
-![Prioridade](https://img.shields.io/badge/MoSCoW-Must%20Have-red)
 
 ---
 
