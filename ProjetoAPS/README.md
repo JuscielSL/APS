@@ -198,20 +198,21 @@ Manutenção e atualização da documentação.
 
 Caso tenha dúvidas, sugestões ou identifique algum problema relacionado ao projeto, utilize a seção de Issues do repositório no GitHub.
 
-📄 Licença
+## 📄 Licença
 
-A licença do projeto será definida posteriormente pela equipe.
+A licença de uso e distribuição do projeto será definida posteriormente pela equipe, conforme as necessidades e os objetivos da aplicação.
 
-🗓️ Informações do Projeto
-Informação	Detalhes
-Projeto	APS — Análise e Desenvolvimento de Sistemas
-Instituição	Centro Universitário UDF
-Disciplina	Engenharia de Software
-Ano	2026
-Status	🚧 Em desenvolvimento
-Equipe	Jusciel, David Brito, Felipe Nascimento, Gecinaldo, Kevin e André
-✨ Projeto Acadêmico
+## 🗓️ Informações do Projeto
 
-Este projeto foi desenvolvido exclusivamente para fins acadêmicos, com o objetivo de colocar em prática os conhecimentos adquiridos na disciplina de Engenharia de Software.
+**Projeto:** APS — Análise e Desenvolvimento de Sistemas  
+**Instituição:** Centro Universitário UDF  
+**Disciplina:** Engenharia de Software  
+**Ano:** 2026  
+**Status:** Em desenvolvimento  
+**Equipe:** Jusciel, David Brito, Felipe Nascimento, Gecinaldo, Kevin e André
 
-Última atualização:  Setembro de 2026
+## ✨ Sobre o Projeto
+
+Este projeto foi desenvolvido como parte das atividades acadêmicas da disciplina de Engenharia de Software, com o propósito de aplicar, na prática, os conceitos e as metodologias estudados ao longo do curso, promovendo o desenvolvimento de habilidades técnicas e o trabalho colaborativo entre os integrantes da equipe.
+
+**Última atualização:** Outubro de 2026
