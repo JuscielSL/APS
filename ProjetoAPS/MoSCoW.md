@@ -68,7 +68,7 @@ O Sistema de Gestão de Clínica Odontológica tem como objetivo otimizar a admi
 
 **Resposta:**
 
-> Atualmente, o problema é resolvido principalmente por meio de agendas físicas, planilhas eletrônicas, anotações em papel e comunicação por telefone ou aplicativos de mensagens. Os funcionários registram os dados dos pacientes, horários e procedimentos manualmente, enquanto os dentistas consultam anotações para acompanhar o histórico dos atendimentos. Esse processo depende da organização dos responsáveis e pode dificultar o acesso rápido às informações, além de aumentar o risco de erros, perda de dados e conflitos de horários.
+> Atualmente, esse processo é realizado principalmente por meio de agendas de papel, planilhas digitais, registros manuais e contato por telefone ou aplicativos de mensagens. Os funcionários ficam responsáveis por cadastrar as informações dos pacientes, organizar os agendamentos e registrar os procedimentos realizados, enquanto os dentistas utilizam anotações para consultar o histórico dos atendimentos. Essa forma de gerenciamento depende da organização da equipe e pode tornar a consulta às informações mais demorada, além de favorecer falhas nos registros, extravio de dados e sobreposição de consultas.
 
 ---
 
