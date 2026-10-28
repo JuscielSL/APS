@@ -14,15 +14,15 @@ O projeto está sendo desenvolvido pelos seguintes integrantes:
 
 [Jusciel](https://github.com/JuscielSL)
 
-[David Brito](https://github.com/dbmarketingdigital21-lab)
+[André](https://github.com/Andrzin117)
 
-[Felipe Nascimento](https://github.com/hdvdhxf3-beep)
+[David Brito](https://github.com/dbmarketingdigital21-lab)
 
 [Gecinaldo](https://github.com/DevJun1u)
 
-[Kevin](https://github.com/keviinfbg) 
+[Felipe Nascimento](https://github.com/hdvdhxf3-beep)
 
-[André](https://github.com/Andrzin117)
+[Kevin](https://github.com/keviinfbg) 
 
 
 
@@ -47,13 +47,10 @@ Em desenvolvimento
 
 O projeto possui como principais objetivos:
 
-Aplicar conceitos de Engenharia de Software;
-Desenvolver habilidades de análise e levantamento de requisitos;
-Praticar modelagem e documentação de sistemas;
-Aplicar metodologias de desenvolvimento de software;
-Desenvolver e testar uma solução computacional;
-Trabalhar de forma colaborativa usando controle de versão;
-Consolidar os conhecimentos adquiridos durante a disciplina.
+Compreender e utilizar os princípios da Engenharia de Software; desenvolver competências para
+identificar e definir requisitos; realizar a modelagem e a documentação de sistemas; empregar metodologias de desenvolvimento de software; implementar
+e validar uma solução computacional; promover o trabalho em equipe por meio de ferramentas de controle de versão; e integrar os conhecimentos adquiridos ao longo da disciplina.
+
 🏗️ Estrutura do Projeto
 
 A organização inicial do projeto está estruturada da seguinte maneira:
