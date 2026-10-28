@@ -33,7 +33,9 @@ https://miro.com/app/board/uXjVHo3pNuw=/
 
 **Descrição resumida do projeto: **  
 
->O projeto de um Sistema de Gestão de Clínica Odontológica tem como contexto a necessidade de modernizar e organizar os processos administrativos e operacionais de uma clínica, centralizando informações de pacientes, profissionais, consultas, procedimentos e prontuários. Sua finalidade é facilitar o gerenciamento das atividades da clínica, reduzir erros e retrabalho, agilizar o acesso às informações e contribuir para um atendimento odontológico mais organizado e eficiente.
+>## 🦷 Sobre o Sistema
+
+O Sistema de Gestão de Clínica Odontológica tem como objetivo otimizar a administração e a organização das atividades de uma clínica, reunindo em uma única plataforma informações sobre pacientes, profissionais, consultas, procedimentos e prontuários odontológicos. A solução busca simplificar os processos internos, facilitar o acesso aos dados, minimizar falhas e retrabalho e tornar o atendimento mais ágil, organizado e eficiente.
 
 ---
 
