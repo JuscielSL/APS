@@ -216,4 +216,4 @@ A licença de uso e distribuição do projeto será definida posteriormente pela
 
 Este projeto foi desenvolvido como parte das atividades acadêmicas da disciplina de Engenharia de Software, com o propósito de aplicar, na prática, os conceitos e as metodologias estudados ao longo do curso, promovendo o desenvolvimento de habilidades técnicas e o trabalho colaborativo entre os integrantes da equipe.
 
-**Última atualização:** Outubro de 2026
+**Última atualização:** Novembro de 2026
