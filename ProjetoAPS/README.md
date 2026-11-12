@@ -210,7 +210,7 @@ A licença de uso e distribuição do projeto será definida posteriormente pela
 **Disciplina:** Engenharia de Software  
 **Ano:** 2026  
 **Status:** Em desenvolvimento  
-**Equipe:** Jusciel, David Brito, Felipe Nascimento, Gecinaldo, Kevin e André
+**Equipe:** Jusciel, Felipe Nascimento, David Brito, Gecinaldo, André e Kevin
 
 ## ✨ Sobre o Projeto
 
