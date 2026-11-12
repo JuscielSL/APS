@@ -125,12 +125,15 @@ As tecnologias utilizadas no desenvolvimento serão documentadas conforme forem 
 
 Linguagens
 A definir
+
 Frameworks e Bibliotecas
 A definir
+
 Ferramentas
 Git
 GitHub
 Ferramentas de desenvolvimento utilizadas pela equipe
+
 📋 Checklist
 Análise e Planejamento
  Levantamento de requisitos
@@ -158,6 +161,7 @@ Documentação
  Manual de utilização
  Atualização do README
  Documentação final
+ 
 📚 Documentação
 
 A documentação do projeto poderá incluir:
