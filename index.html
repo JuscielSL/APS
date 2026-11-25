@@ -3,199 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OdontoGestão — MVP Clínica Odontológica</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Sistema de Gestão de Clínica Odontológica — APS</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background: #f1f5f9; color: #0f172a; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 1.5rem; }
+    .card { background: #fff; max-width: 680px; width: 100%; padding: 2.5rem; border-radius: 14px; border: 1px solid #e2e8f0; box-shadow: 0 4px 20px rgba(0,0,0,0.04); }
+    .tag { display: inline-block; background: #ccfbf1; color: #0f766e; font-weight: 700; font-size: 0.8rem; padding: 0.25rem 0.75rem; border-radius: 999px; margin-bottom: 1rem; }
+    h1 { font-size: 1.75rem; margin-bottom: 0.75rem; line-height: 1.25; }
+    p { color: #475569; line-height: 1.6; margin-bottom: 1.5rem; }
+    .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 2rem; }
+    .btn { text-decoration: none; padding: 0.8rem 1.25rem; border-radius: 8px; font-weight: 600; font-size: 0.95rem; transition: 0.15s; }
+    .btn-primary { background: #0f766e; color: #fff; }
+    .btn-primary:hover { background: #115e59; }
+    .btn-outline { border: 1px solid #cbd5e1; color: #0f172a; background: #f8fafc; }
+    .btn-outline:hover { background: #e2e8f0; }
+    .links-box { border-top: 1px solid #e2e8f0; padding-top: 1.25rem; }
+    .links-box h2 { font-size: 0.95rem; text-transform: uppercase; color: #64748b; margin-bottom: 0.75rem; }
+    ul { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    li a { color: #0f766e; text-decoration: none; font-weight: 500; }
+    li a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
-  <header class="topbar">
-    <div class="brand">
-      <span class="logo">🦷</span>
-      <div>
-        <h1>OdontoGestão <span class="badge">MVP v0.1</span></h1>
-        <p>Sistema de Gestão de Clínica Odontológica — APS</p>
-      </div>
+  <main class="card">
+    <span class="tag">Projeto APS — Engenharia de Software (UDF)</span>
+    <h1>Sistema de Gestão de Clínica Odontológica</h1>
+    <p>
+      Solução web desenvolvida para digitalizar o atendimento odontológico, substituindo prontuários físicos e organizando o fluxo de cadastro de pacientes, triagem, lista de espera, agendamento de consultas e histórico clínico.
+    </p>
+
+    <div class="actions">
+      <a href="https://sigco-udf.vercel.app/" class="btn btn-primary">
+        Acessar MVP Online (Vercel) ↗
+      </a>
+      
+      <a href="https://github.com/davidbdev21/SIGCO---UDF-" target="_blank" class="btn btn-outline">
+        Código-Fonte no GitHub
+      </a>
     </div>
-    <div class="role-switch">
-      <label for="perfilSelect">Perfil ativo:</label>
-      <select id="perfilSelect" onchange="mudarPerfil()">
-        <option value="Recepção">Recepção</option>
-        <option value="Dentista">Dentista (Triagem / Atendimento)</option>
-      </select>
+
+    <div class="links-box">
+      <h2>Entregáveis & Documentação no Repositório</h2>
+      <ul>
+        <li><a href="https://github.com/JuscielSL/APS/tree/main/MVP">📂 Pasta MVP (Apresentação PITCH e Vídeo de Demonstração)</a></li>
+        <li><a href="https://github.com/JuscielSL/APS">📄 Documentação de Requisitos, Regras de Negócio e Diagramas UML</a></li>
+      </ul>
     </div>
-  </header>
-
-  <main class="container">
-    <!-- Indicadores rápidos -->
-    <section class="stats-grid" id="statsGrid"></section>
-
-    <!-- Navegação por abas -->
-    <nav class="tabs">
-      <button class="tab-btn active" onclick="abrirAba('pacientes', this)">1. Pacientes</button>
-      <button class="tab-btn" onclick="abrirAba('triagem', this)">2. Triagem & Lista de Espera</button>
-      <button class="tab-btn" onclick="abrirAba('agenda', this)">3. Agendamento</button>
-      <button class="tab-btn" onclick="abrirAba('prontuario', this)">4. Prontuário Eletrônico</button>
-    </nav>
-
-    <!-- ABA 1: PACIENTES -->
-    <section id="aba-pacientes" class="tab-content active">
-      <div class="grid-2">
-        <div class="card">
-          <h2>Cadastrar Novo Paciente</h2>
-          <form id="formPaciente" onsubmit="cadastrarPaciente(event)">
-            <div class="form-group">
-              <label>Nome Completo *</label>
-              <input type="text" id="pacNome" required placeholder="Ex: Maria Oliveira">
-            </div>
-            <div class="form-row">
-              <div class="form-group">
-                <label>CPF *</label>
-                <input type="text" id="pacCpf" required placeholder="000.000.000-00">
-              </div>
-              <div class="form-group">
-                <label>Telefone *</label>
-                <input type="text" id="pacTelefone" required placeholder="(61) 99999-0000">
-              </div>
-            </div>
-            <div class="form-group">
-              <label>Queixa Principal / Motivo *</label>
-              <input type="text" id="pacQueixa" required placeholder="Ex: Dor no molar superior direito">
-            </div>
-            <button type="submit" class="btn btn-primary">Salvar e Enviar para Triagem</button>
-          </form>
-        </div>
-
-        <div class="card">
-          <h2>Pacientes Cadastrados</h2>
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Nome</th>
-                  <th>Telefone</th>
-                  <th>Queixa</th>
-                  <th>Ação</th>
-                </tr>
-              </thead>
-              <tbody id="listaPacientes"></tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABA 2: TRIAGEM E LISTA DE ESPERA -->
-    <section id="aba-triagem" class="tab-content">
-      <div class="card">
-        <div class="card-header">
-          <h2>Fila de Triagem e Lista de Espera</h2>
-          <span class="hint">Defina a prioridade com o Dentista da Triagem e encaminhe para agendamento</span>
-        </div>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Paciente</th>
-                <th>Queixa Inicial</th>
-                <th>Prioridade</th>
-                <th>Avaliação da Triagem</th>
-                <th>Status</th>
-                <th>Ações</th>
-              </tr>
-            </thead>
-            <tbody id="listaTriagem"></tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABA 3: AGENDAMENTO -->
-    <section id="aba-agenda" class="tab-content">
-      <div class="grid-2">
-        <div class="card">
-          <h2>Agendar Consulta</h2>
-          <form id="formAgenda" onsubmit="agendarConsulta(event)">
-            <div class="form-group">
-              <label>Paciente *</label>
-              <select id="agPaciente" required></select>
-            </div>
-            <div class="form-group">
-              <label>Dentista Responsável *</label>
-              <select id="agDentista" required>
-                <option value="Dra. Camila Martins (Clínica Geral)">Dra. Camila Martins (Clínica Geral)</option>
-                <option value="Dr. Rafael Souza (Endodontia)">Dr. Rafael Souza (Endodontia)</option>
-                <option value="Dra. Beatriz Lima (Ortodontia)">Dra. Beatriz Lima (Ortodontia)</option>
-              </select>
-            </div>
-            <div class="form-row">
-              <div class="form-group">
-                <label>Data *</label>
-                <input type="date" id="agData" required>
-              </div>
-              <div class="form-group">
-                <label>Horário *</label>
-                <input type="time" id="agHora" required value="09:00">
-              </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Confirmar Agendamento</button>
-          </form>
-        </div>
-
-        <div class="card">
-          <h2>Agenda de Consultas</h2>
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Data/Hora</th>
-                  <th>Paciente</th>
-                  <th>Dentista</th>
-                  <th>Status</th>
-                  <th>Controle</th>
-                </tr>
-              </thead>
-              <tbody id="listaAgenda"></tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABA 4: PRONTUÁRIO ELETRÔNICO -->
-    <section id="aba-prontuario" class="tab-content">
-      <div class="grid-2">
-        <div class="card">
-          <h2>Registrar Evolução Clínica</h2>
-          <form id="formProntuario" onsubmit="registrarProntuario(event)">
-            <div class="form-group">
-              <label>Paciente *</label>
-              <select id="prontPaciente" required onchange="renderizarHistoricoProntuario()"></select>
-            </div>
-            <div class="form-group">
-              <label>Procedimento Realizado *</label>
-              <input type="text" id="prontProcedimento" required placeholder="Ex: Restauração em resina / Profilaxia">
-            </div>
-            <div class="form-group">
-              <label>Observações Clínicas / Prescrição *</label>
-              <textarea id="prontDescricao" rows="4" required placeholder="Descreva o atendimento realizado e orientações..."></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Salvar no Prontuário</button>
-          </form>
-        </div>
-
-        <div class="card">
-          <h2>Histórico do Paciente Selecionado</h2>
-          <div id="historicoProntuario" class="timeline"></div>
-        </div>
-      </div>
-    </section>
   </main>
-
-  <footer class="footer">
-    <span>Projeto APS — Engenharia de Software (UDF) | MVP hospedado via GitHub Pages</span>
-    <button class="btn-link" onclick="resetarDadosDemo()">Resetar Dados de Demonstração</button>
-  </footer>
-
-  <div id="toast" class="toast"></div>
-  <script src="js/app.js"></script>
 </body>
 </html>
