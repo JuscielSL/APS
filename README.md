@@ -26,6 +26,6 @@ Para manter a separação entre **documentação acadêmica/portal estático** e
 
 ### 🔗 Links Rápidos e Acesso de Teste
 * **Aplicação Online (Vercel):** [COLE_AQUI_O_LINK_DA_VERCEL]
-* **Credenciais de Demonstração:** `desmontracao@udf.edu.br` | Senha: `0987654321`
+* **Credenciais de Demonstração:** `desmontracao@cs.udf.edu.br` | Senha: `0987654321`
 * **Entregáveis do MVP (PITCH e Vídeo):** [Acessar pasta `/MVP`](./MVP)
 
