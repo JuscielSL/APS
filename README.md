@@ -25,7 +25,7 @@ Para manter a separação entre **documentação acadêmica/portal estático** e
    O código-fonte da aplicação encontra-se versionado no repositório de desenvolvimento da equipe ([acessar repositório do código](https://github.com/davidbdev21/SIGCO---UDF-)) para integração direta com a **Vercel**, garantindo build automatizado, ambiente de produção estável e suporte nativo à estrutura do projeto.
 
 ### 🔗 Links Rápidos e Acesso de Teste
-* **Aplicação Online (Vercel):** [COLE_AQUI_O_LINK_DA_VERCEL]
+* **Aplicação Online (Vercel):** https://sigco-udf.vercel.app/
 * **Credenciais de Demonstração:** `desmontracao@cs.udf.edu.br` | Senha: `0987654321`
 * **Entregáveis do MVP (PITCH e Vídeo):** [Acessar pasta `/MVP`](./MVP)
 
